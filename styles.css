@@ -1,0 +1,55 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header */
+#header {
+    background: #0057D9;
+    padding: 15px;
+}
+
+#header .logo h1 {
+    font-size: 2em;
+}
+
+#header nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 0;
+}
+
+#header nav ul li {
+    margin-left: 20px;
+}
+
+#header nav ul li a {
+    font-size: 1.1em;
+    color: white;
+}
+
+#header nav ul li a:hover {
+    color: #A3FF12;
+.testimonial {
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.testimonial:hover {
+  transform: translateY(-5px);
+}
+
+    
+}
+
+/* Hero Section */
+#hero {
+    background: url('hero-image.jpg') no-repeat center

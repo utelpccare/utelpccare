@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utel PC Care| Laptop & Computer Repair</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script> AOS.init(); </script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="header" class="bg-primary text-white py-4">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="h2 mb-0">UTEL PC CARE</h1>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a href="#services" class="nav-link text-white">Services</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link text-white">About</a></li>
+                    <li class="nav-item"><a href="#testimonials" class="nav-link text-white">Testimonials</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link text-white">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex justify-content-center align-items-center text-center text-white" style="background: url('images/hero-image.jpg') no-repeat center center/cover; height: 60vh;">
+        <div class="container">
+            <h2 data-aos="fade-right" class="display-4">Fast, Reliable Laptop & Computer Repairs</h2>
+            <p class="lead mb-4">Expert technicians. Same-day service. Affordable prices.</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-lg btn-success mx-2">Get a Free Diagnosis</a>
+                <a href="tel:+1234567890" class="btn btn-lg btn-light mx-2">Call Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-light py-5">
+        <div class="container">
+            <h2 class="display-4 text-center mb-5">Our Services</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4" data-aos="fade-up">
+                    <div class="service-card p-4 bg-white shadow rounded text-center">
+                        <img src="images/laptop-screen-replacement.jpg" alt="Laptop Screen Replacement" class="mb-3" style="width: 80px;">
+                        <h3>Laptop Screen Replacement</h3>
+                        <p>Quick and professional screen replacement for all laptop models.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up">
+                    <div class="service-card p-4 bg-white shadow rounded text-center">
+                        <img src="images/data-recovery.jpg" alt="Data Recovery" class="mb-3" style="width: 80px;">
+                        <h3>Data Recovery</h3>
+                        <p>Recover your lost data securely and efficiently.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up">
+                    <div class="service-card p-4 bg-white shadow rounded text-center">
+                        <img src="images/virus-removal.jpg" alt="Virus Removal" class="mb-3" style="width: 80px;">
+                        <h3>Virus & Malware Removal</h3>
+                        <p>Protect your device with expert virus and malware removal.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ✅ START: Testimonials Section -->
+<section id="testimonials" class="py-5" style="background-color: #f0f0f0;">
+  <div class="container text-center">
+    <h2 class="display-4 mb-5" style="color: #222;">What Our Clients Say</h2>
+    <div class="row justify-content-center">
+
+      <!-- Testimonial 1 -->
+      <div class="col-md-6 mb-4" data-aos="fade-left">
+        <div class="testimonial p-4 bg-white rounded shadow">
+          <img src="images/testimonial1.jpg" alt="Anitha Shankar" class="rounded-circle mb-3" style="width: 80px; height: 80px;">
+          <p class="lead text-dark">"I had a cracked laptop screen and needed a fast fix. Utel PC Care repaired it the same day, and now it's as good as new! Highly recommended."</p>
+          <h4 class="text-dark">Anitha Shankar</h4>
+          <div class="stars text-warning">⭐⭐⭐⭐⭐</div>
+        </div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="col-md-6 mb-4" data-aos="fade-right">
+        <div class="testimonial p-4 bg-white rounded shadow">
+          <img src="images/testimonial2.jpg" alt="Saravanan Kannan" class="rounded-circle mb-3" style="width: 80px; height: 80px;">
+          <p class="lead text-dark">"Incredible service! They recovered all my lost files after a hard drive failure. Friendly staff, quick turnaround, and fair pricing."</p>
+          <h4 class="text-dark">Saravanan Kannan</h4>
+          <div class="stars text-warning">⭐⭐⭐⭐⭐</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- ✅ END: Testimonials Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="display-4 text-center mb-5">Contact Us</h2>
+            <form id="contact-form" class="mx-auto" style="max-width: 600px;">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="device" class="form-label">Device Type</label>
+                    <input type="text" id="device" name="device" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="issue" class="form-label">Issue Description</label>
+                    <textarea id="issue" name="issue" class="form-control" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-lg btn-success">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container d-flex justify-content-between">
+            <ul class="nav">
+                <li class="nav-item"><a href="#" class="nav-link text-white">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white">Services</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white">FAQ</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white">Contact</a></li>
+            </ul>
+            <div class="socials">
+                <a href="#" class="text-white me-3">Facebook</a>
+                <a href="#" class="text-white me-3">Instagram</a>
+                <a href="#" class="text-white">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
